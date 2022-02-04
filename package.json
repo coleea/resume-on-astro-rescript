@@ -1,0 +1,23 @@
+{
+  "name": "@example/starter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:rescript": "rescript build -w",
+    "r": "rescript build",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "npm i && rescript build && astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/renderer-react": "^0.4.1",
+    "@rescript/react": "^0.10.3",
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "astro": "^0.22.20",
+    "rescript": "^9.1.4",
+    "rescript-remix": "^0.2.1",
+    "rescript-webapi": "^0.6.0",
+    "sass": "^1.49.7"
+  }
+}
