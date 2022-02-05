@@ -99,6 +99,21 @@ img {
 			// color : #4b4563 ;
 			// margin-top : 50px ;
 			// font-size : .7rem;
+
+			.js_title_logo {
+				position : relative;
+				top : 40px;
+			}
+
+			.ts_title_logo {
+				position : relative;
+				top : 40px;
+			}
+
+			.react_title_img  {
+				position : relative;
+				top : 70px;
+			}
 			.personal_info_icon{
 				width:100px;
 			}
@@ -207,4 +222,16 @@ text-shadow: 5px 5px 10px #e9e7e7;
 	  }	  
 	}
 
+  }
+
+  footer {
+	  .rescript_logo {
+		position :relative;
+		top : 5px;
+	  }
+	  .astro_logo {
+		  position :relative;
+		  top : 10px;
+		  border-radius : 1em;
+	  }
   }

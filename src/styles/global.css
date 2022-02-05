@@ -40,3 +40,8 @@ h1 {
 img {
 	max-width: 100%;
 }
+
+footer {
+	margin-bottom : 80px;
+	line-height : 3em ;
+}

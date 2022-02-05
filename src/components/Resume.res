@@ -89,13 +89,163 @@ let default = () =>
 					<h1>{`경력`->React.string}</h1>
 				</div>
 
+				<div className="project">
+					<div className="title">
+						<h1><b>{`개발자 커뮤니티 사이트 구현`->React.string}</b></h1>
+						<h4><i>{`(2021.01 ~ )`->React.string}</i></h4>
+						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
+						<h3><i>{`개발 커뮤니티에서 읽을만한 글을 한데모아 게시판 형태로 보여주는 웹사이트입니다`->React.string}</i></h3>
+					</div>
+					<div className="description">
+						<ul>
+						<li>{`참여도 : 100%`->React.string}</li>
+						<li>{`URL : https://devkr.info`->React.string}</li>
+						<li>{`타입스크립트와 SCSS 기반으로 구현하였습니다`->React.string}</li>
+						<li>{`헤드리스 크롬 라이브러리인 puppeteer로 reddit, okky, dcinside의 글을 스크래핑하여 DB에 저장하였습니다`->React.string}</li>
+						<li>{`회원가입 및 로그인 페이지를 구현했습니다`->React.string}</li>
+						<li>{`MongoDB Realm 및 GraphQL기반의 데이터 요청으로 게시판을 구현했습니다`->React.string}</li>
+						<li>{`게시물 검색기능을 구현했습니다`->React.string}</li>
+						<li>{`자유게시판의 글등록, 삭제, 댓글쓰기 및 스크롤에 반응하는 글 로딩하기 기능을 구현했습니다`->React.string}</li>
+						<li>{`모바일 및 데스크탑 페이지를 별도로 만들지 않고 디바이스에 맞춰 동적으로 변하는 반응형 웹으로 구현했습니다`->React.string}</li>
+						<li>{`서버리스 기반의 AWS Lambda@Edge, Cloudfront를 이용하여 배포했습니다`->React.string}</li>
+						<li>
+							{`스택`->React.string}
+							<ul>
+								<li>{`Next.js, recoil, CSS Module, SCSS, styled-jsx`->React.string}</li>
+								<li>{`DB : MongoDB Atlas, Mongodb Realm(GraphQL 기반)`->React.string}</li>
+								<li>{`배포툴 : serverless프레임워크의 next-js 플러그인 (aws cloudfront로 디플로이)`->React.string}</li>
+								<li>{`스크랩핑 툴 : puppeteer`->React.string}</li>
+							</ul>
+						</li>
+						</ul>
+					</div>
+				</div>
+
+				<div className="project">
+					<div className="title">
+						<h1><b>{`학생 출결관리 사이트 구현`->React.string}</b></h1>
+						<h4><i>{`(2020.01 ~)`->React.string}</i></h4>
+						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
+					</div>
+
+					<div className="description">
+						<ul>
+						<li>{`참여도 : 100%`->React.string}</li>
+						<li>{`next.js기반으로 제작되었습니다`->React.string}</li>
+						<li>{`next-iron-session에 기반한 로그인 기능을 구현했습니다`->React.string}</li>
+						<li>{`학생이 과목을 신청하거나 신청을 취소하는 페이지를 만들었습니다`->React.string}</li>
+						<li>{`선생님이 과목에 등록한 학생 정보를 열람하는 페이지를 만들었습니다`->React.string}</li>
+						<li>{`mongoDB atlas를 DB로 사용했습니다`->React.string}</li>
+						<li>{`API Routes에 기반한 DB CRUD를 구현했습니다`->React.string}</li>
+						<li>{`함수형 컴포넌트 및 훅에 기반하여 페이지를 구현했습니다`->React.string}</li>
+						<li>{`AWS EC2로 배포했습니다`->React.string}</li>
+						</ul>
+					</div>
+				</div>
+
+				<div className="project">
+					<div className="title">
+						<h1><b>{`커뮤니티 베스트글 모음 사이트 구현`->React.string}</b></h1>
+						<h4><i>{`(2019.01 ~ 2019.10)`->React.string}</i></h4>
+						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
+					</div>
+					<div className="description">
+						<ul>
+                <li>{`참여도 : 100%`->React.string}</li>
+                <li>{`express & pug 템플릿 엔진 기반으로 제작된 사이트입니다`->React.string}</li>
+                <li>{`PhantomJS로 각종 커뮤니티의 베스트 글을 크롤링하여 DB에 저장하였습니다`->React.string}</li>
+                <li>{`heroku의 MongoDB 애드온즈를 DB로 사용하여 스크랩한 데이터를 관리했습니다`->React.string}</li>
+                <li>{`REST기반의 API를 작성했습니다`->React.string}</li>
+                <li>{`페이지네이션 및 검색 기능이 포함된 게시판을 구현했습니다`->React.string}</li>
+                <li>{`SEO(Search Engine Optimization)를 적용하여 페이지뷰를 증가시킨 경험이 있습니다`->React.string}</li>
+                <li>{`heroku로 배포하였습니다`->React.string}</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div className="project">
+					<div className="title center">
+						<h1><b>{`해바라기 소프트`->React.string}</b></h1>
+						<h4><i>{`(2018.05 ~ 2018.10)`->React.string}</i></h4>
+						<h4><i>{`전자투표 솔루션 업체에서 프론트 및 백엔드 엔지니어로 업무를 수행 하였습니다`->React.string}</i></h4>
+					</div>
+					<div className="description">
+						<ul>
+						<li>{`스프링 + 타임리프 + 제이쿼리 기반의 프로젝트를 수행하였습니다`->React.string}</li>
+						<li>
+							{`투표결과를 엑셀파일로 생성하는 기능을 구현하였습니다`->React.string}
+							<div className="sub">{`- 사내 자체제작된 ORM으로 MySQL에서 투표관련 데이터를 가져와서 엑셀 파일로 제작하여 클라이언트에게 리스폰스 해주는 기능을 구현하였습니다`->React.string}</div>
+						</li>
+						<li>
+							{`chart.js라는 js기반의 데이터 시각화 라이브러리로 투표 결과를 시각화하는 페이지를 10여개 제작하였습니다`->React.string}
+							<div className="sub">{`- 막대 그래프, 원형 그래프 등의 다양한 그래프로 투표 결과를 시각화하였습니다`->React.string}</div>
+						</li>
+						<li>
+							{`타임리프 &amp; 제이쿼리 기반으로 게시판을 구현하였습니다`->React.string}
+							<div className="sub">{`- "글 작성하기, 글 수정하기, 글 상세보기" 등의 페이지를 제작하였습니다`->React.string}</div>
+						</li>
+						</ul>
+					</div>
+				</div>
+
+
+        <div className="project">
+                <div className="title center">
+                  <h1><b>{`파워보이스`->React.string}</b></h1>
+                  <h4><i>{`(2017.01 ~ 2017.12)`->React.string}</i></h4>
+                  <h4><i>{`자연어처리 업무를 담당하였습니다`->React.string}</i></h4>
+                </div>
+                <div className="description">
+                  <ul>
+                  <li>{`구어체 문장의 패턴을 분석하여 특정 명령어로 분류하는 classification 작업을 수행하였습니다`->React.string}</li>
+                  <li>{`형태소 분석기 엔진을 최적화하여 타겟 키워드의 검출을 약 5% 향상시켰습니다`->React.string}</li>
+                  <li>{`형태소 분석기 전체 리팩토링 작업을 수행했습니다`->React.string}
+                    <ul className="sub_ul">
+                      <li><i>{`C기반의 전체 소스코드를 C++로 리팩토링 하였습니다.`->React.string}</i></li>
+                      <li><i>{`전체적인 코드가 비효율적으로 작성되었다고 판단되었기 때문입니다`->React.string}</i></li>
+                      <li><i>{`중복되는 코드를 제거하고 코드 재사용성을 높이고 문법을 간결하게 작성하여 코드길이를 약 1/5로 줄였습니다`->React.string}</i></li>
+                      <li><i>{`문자열 검색 알고리즘을 boyer-moore에서 aho-corasick으로 대체하고 파일 I/O횟수를 최소화하여 이전엔진 대비 처리속도를 약 2.8배 향상시켰습니다`->React.string}</i></li>
+                      <li><i>{`사용하는 메모리 사이즈를 약 50% 줄였습니다`->React.string}</i></li>
+                    </ul>
+                  </li>
+                  <li>{`문자열에서 키워드를 검출하는 수작업을 프로그램으로 자동화 하였습니다`->React.string}
+                    <ul className="sub_ul">
+                      <li><i>{`"여기 불났어요"같은 문장에서 "불나다" 라는 어휘를 검출하는 작업을 파이썬으로 100% 자동화 하였습니다`->React.string}</i></li>
+                      <li><i>{`약 6개월 걸릴것으로 예상했던 작업이 3주만에 완료 되었습니다.`->React.string}</i> </li>
+                      <li><i>{`직원들이 다른 업무에 집중할 수 있게되어 팀 전체의 생산성이 증대 되었습니다`->React.string}</i></li>
+                    </ul>
+                  </li>
+                  </ul>
+                </div>
+          </div>
+
         <div className="strong_font">
 					<h1><b>{`기술`->React.string}</b></h1>
 				</div>
 
 				<div className="project">
 					<div className="title">
-					<img  className="img_title" src="https://i.pinimg.com/736x/c3/8e/e8/c38ee8475ee7f3680f706c56c3a1194c.jpg" />
+						<img className="img_title js_title_logo" width="200px" src="js_icon.png"/>
+						<p className="mobile_title"><strong>{`Javascript`->React.string}</strong></p>
+					</div>
+					<div className="description">
+						<ul>
+						<li>{`ES1부터 ES2021까지 거의 `->React.string}<strong>{`모든 문법`->React.string}</strong>{`을 읽고 쓰고 이해할 수 있습니다`->React.string}</li>
+						<li>{`콜백과 이벤트 루프, 프라미스와 마이크로테스크 큐, async함수 및 자바스크립트 런타임에서 `->React.string}<strong>{`코드가 어떤 순서대로 실행`->React.string}</strong>{`되는지, 왜 그렇게 실행되는지 이해할 수 있습니다.`->React.string}</li>
+						<li>{`코드의 실행흐름이 이해가지 않아서 버그가 발생하는 일이 없습니다`->React.string}</li>
+						<li>{`jQuery 없이 querySelector및 HTMLElement등의 Web API로 `->React.string}<strong>{`엘리먼트를 다루고 조작`->React.string}</strong>{`하는데 불편함이 없습니다`->React.string}</li>
+						<li>{`필요한 `->React.string}<strong>{`정규식`->React.string}</strong>{`은 대부분 이해하고 구현할 수 있습니다`->React.string}</li>
+						<li>{`함수형의 원칙인 순수함수의 지향 및 `->React.string}<strong>{`부수효과의 최소화`->React.string}</strong>{`에 입각하여 개발합니다`->React.string}</li>
+						<li>{`읽기쉬운 코드가 최고의 코드라는 가치에 입각하여 누가 언제 읽어도 이해할 수 있도록 `->React.string}<strong>{`선언적`->React.string}</strong>{`으로 개발합니다`->React.string}</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div className="project">
+					<div className="title">
+					<img  className="img_title ts_title_logo" src="ts_logo.svg" />
 						<p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
 					</div>
 					<div className="description">    
@@ -105,9 +255,9 @@ let default = () =>
 					</div> 
 				</div>
 
-				<div className="project">
+				<div className="project react_wrapper">
 					<div className="title">
-						<img className="img_title" src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"/>
+						<img className="img_title react_title_img" src="react_icon_square.png"/>
 						<p className="mobile_title"><strong>{`React`->React.string}</strong></p>
 					</div>
 					<div className="description">
@@ -125,7 +275,7 @@ let default = () =>
             				<div className="project">
 					<div className="title center">
 						<h1><b>{`배포`->React.string}</b></h1>
-						<img  className="deploy_icon" src="https://media.istockphoto.com/vectors/space-rocket-ship-launch-icon-symbol-sign-vector-illustration-icon-vector-id1249577261?k=20&amp;m=1249577261&amp;s=170667a&amp;w=0&amp;h=XWXNf2eItfPfuRe67N5-6dqcPRH745bvbDInj74Xv3w="/>
+						<img className="deploy_icon" src="deploy_icon.png"/>
 						<h3></h3>
 					</div>
 					<div className="description">
@@ -145,7 +295,7 @@ let default = () =>
 					<div className="title center">
 						<h1><b>{`개인정보`->React.string}</b></h1>
 						<h3><i></i></h3>
-						<img  className="personal_info_icon" width={"150px"} src="https://www.pinclipart.com/picdir/big/247-2473891_personal-information-svg-png-icon-free-download-clipart.png"/>
+						<img  className="personal_info_icon" width={"150px"} src="/profile_icon.png"/>
 					</div>
 					<div className="descriptionWrapper">
 						<div className="descriptItem">
@@ -183,7 +333,12 @@ let default = () =>
 					</div>
 				</div>                 
             <footer>
-                {`Powered by Rescript, Astro, Cloudflare Pages`->React.string}
+                {`본 이력서는 `->React.string} 
+                <img className="rescript_logo" alt="rescript" src="rescript-logo.svg" width="150px"></img>
+                {` , `->React.string}
+                <img className="astro_logo" alt="astro.build" src="astro_logo.jpg" width="50px"></img>
+
+                {` 로 작성되었고 Cloudflare Pages에 배포되었습니다`->React.string}
             </footer>      
       </header>
       
