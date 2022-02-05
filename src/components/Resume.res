@@ -68,7 +68,7 @@ let default = () =>
                 <img  className="img_tech" src="https://res.cloudinary.com/practicaldev/image/fetch/s--kpVkTsRw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7kj8y4dfyd1aw989edi.png"/>
                 <img  className="img_tech" src="https://poiemaweb.com/img/mongo-db-logo.png"/>
               </div>
-              <div>
+              <div className="description">
 
                 <li><strong>{`next.js`->React.string}</strong>{` 또는 `->React.string}<strong>{`express`->React.string}</strong>{` 기반의 웹개발을 수행합니다`->React.string}</li>
                 <li>{`프로젝트 생성에서 배포 및 도메인 연결까지 개발 전과정을 혼자 진행할 수 있습니다`->React.string}</li>
@@ -95,6 +95,8 @@ let default = () =>
 						<h4><i>{`(2021.01 ~ )`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
 						<h3><i>{`개발 커뮤니티에서 읽을만한 글을 한데모아 게시판 형태로 보여주는 웹사이트입니다`->React.string}</i></h3>
+            <img className="next-title-logo" src="nextjs-logo.svg" width="240px"></img>
+
 					</div>
 					<div className="description">
 						<ul>
@@ -126,6 +128,7 @@ let default = () =>
 						<h1><b>{`학생 출결관리 사이트 구현`->React.string}</b></h1>
 						<h4><i>{`(2020.01 ~)`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
+            <img className="next-title-logo" src="nextjs-logo.svg" width="240px"></img>
 					</div>
 
 					<div className="description">
@@ -148,6 +151,7 @@ let default = () =>
 						<h1><b>{`커뮤니티 베스트글 모음 사이트 구현`->React.string}</b></h1>
 						<h4><i>{`(2019.01 ~ 2019.10)`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
+            <img className="express-title-logo" src="express-logo.png" width="350px"></img>
 					</div>
 					<div className="description">
 						<ul>
@@ -169,6 +173,9 @@ let default = () =>
 						<h1><b>{`해바라기 소프트`->React.string}</b></h1>
 						<h4><i>{`(2018.05 ~ 2018.10)`->React.string}</i></h4>
 						<h4><i>{`전자투표 솔루션 업체에서 프론트 및 백엔드 엔지니어로 업무를 수행 하였습니다`->React.string}</i></h4>
+            <img src="spring_logo.png" width="200px"></img>
+            <img src="thymeleaf_logo.png" width="180px"></img>
+            <img src="jquery_logo.png" width="250px"></img>
 					</div>
 					<div className="description">
 						<ul>
@@ -182,7 +189,7 @@ let default = () =>
 							<div className="sub">{`- 막대 그래프, 원형 그래프 등의 다양한 그래프로 투표 결과를 시각화하였습니다`->React.string}</div>
 						</li>
 						<li>
-							{`타임리프 &amp; 제이쿼리 기반으로 게시판을 구현하였습니다`->React.string}
+							{`타임리프 & 제이쿼리 기반으로 게시판을 구현하였습니다`->React.string}
 							<div className="sub">{`- "글 작성하기, 글 수정하기, 글 상세보기" 등의 페이지를 제작하였습니다`->React.string}</div>
 						</li>
 						</ul>
@@ -195,6 +202,9 @@ let default = () =>
                   <h1><b>{`파워보이스`->React.string}</b></h1>
                   <h4><i>{`(2017.01 ~ 2017.12)`->React.string}</i></h4>
                   <h4><i>{`자연어처리 업무를 담당하였습니다`->React.string}</i></h4>
+                  <img src="cpp-logo.png" width="240px"></img>
+                  <img src="python-logo2.png" width="240px"></img>
+
                 </div>
                 <div className="description">
                   <ul>
@@ -251,6 +261,18 @@ let default = () =>
 					<div className="description">    
 						<ul>           
 							<li>{`any 및 강제 형변환을 지양하고 타입가드를 통한 타입 추론을 지향합니다`->React.string}</li>
+						</ul>   
+					</div> 
+				</div>
+
+				<div className="project">
+					<div className="title">
+					<img  className="img_title rescript_title_logo" src="rescript-logo.svg" />
+						<p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
+					</div>
+					<div className="description">    
+						<ul>           
+							<li>{`몇가지 토이프로젝트를 수행한 경험이 있습니다`->React.string}</li>
 						</ul>   
 					</div> 
 				</div>
