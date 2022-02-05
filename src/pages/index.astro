@@ -1,15 +1,19 @@
 ---
-import Test from '../components/Test.js';
+import Resume from '../components/Resume.js';
+import '../styles/global.css';
+
 ---
-<html lang="en">
+<html lang="ko">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
 	<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css"
+		  href={Astro.resolve('../styles/global.css')} 
+	/>
+
 </head>
 <body>
-	<main>	
-		<Test/>
-	</main>
+	<Resume/>
 </body>
 </html>
