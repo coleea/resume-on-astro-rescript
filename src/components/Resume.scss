@@ -17,9 +17,9 @@ a {
   }
   
 html, body {
-margin : 0 ;
-padding : 0;
-// font-weight: 1000;
+    margin : 0 ;
+    padding : 0;
+    // font-weight: 1000;
 }
 
 body { 
@@ -90,15 +90,48 @@ img {
 		margin : 0 0 2em 0 ;
 		padding : 1em 1.5em;
 		box-shadow:  0 0 30px rgba(100, 100, 100,.5);
-		background: linear-gradient(90deg, white, rgb(230, 230, 230));
+		background: linear-gradient(90deg, rgb(240, 240, 240), rgb(220, 220, 220));
 		color : #4b4563 ;
 		// margin-right: 20%;
 
-		.title {
+        .title-logo {
+
+        }
+		.titleWrapper {
 			padding : 0 2em 0 0 ;
 			// color : #4b4563 ;
 			// margin-top : 50px ;
 			// font-size : .7rem;
+            .imgWrapper {
+                display: flex;
+                flex-direction: column;
+                // justify-content: center;
+                align-items: center;
+                width: 100% ;
+                opacity: 80%;
+                .general-logo{
+                    // position : relative;
+                    // left : 70px ;     
+                }
+                .tailwind-logo{
+                    width: 300px;
+                }
+                .cljs-logo {
+                    width: 250px;
+                }                
+            }
+            .core {
+                margin-top: 120px;
+            }
+            .etc-lang, .ne {
+                gap: 60px;
+            }
+            .toyProject {
+                gap: 60px;
+            }
+			.img_title {
+				width: 100%;
+			}            
 			.next-title-logo{
 				position : relative;
 				left : 70px ; 
@@ -117,6 +150,7 @@ img {
 				position : relative;
 				top : 15px;
 			}
+
 			.react_title_img  {
 				position : relative;
 				top : 70px;
@@ -133,9 +167,7 @@ img {
 				margin: auto;
 				padding : 0 0 90px 0 ;
 			}		
-			.img_title {
-				width: 100%;
-			}
+
 			.deploy_icon{
 				width: 50%;
 			}						

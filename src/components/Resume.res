@@ -2,6 +2,7 @@
 // let 대신 external 키워드를 씀
 @module external css : {..} = "./Resume.scss"
 
+let s = React.string
 module Txt = {
   @react.component @module("./Div")
   external make: (~children: string) => React.element = "default"
@@ -14,7 +15,7 @@ let default = () =>
         <img src="/welcome.png" className="welcome_img"></img>
         // <div className={css["test"]}>{`이력서에 오신것을 환영합니다`->React.string}</div>
         <div className="project">
-            <div className="title center">
+            <div className="titleWrapper center">
               <h1><b>{`기본정보`->React.string}</b></h1>
             </div>
             <div className="description">
@@ -28,7 +29,7 @@ let default = () =>
      
         </div>    
             <div className="project">
-              <div className="title center">
+              <div className="titleWrapper center">
                 <h1><b>{`간단이력`->React.string}</b></h1>
                 <h3></h3>
               </div>
@@ -54,19 +55,26 @@ let default = () =>
                   <div className="sub">{`- 2019.01 ~ 현재`->React.string}</div>
                   <div className="sub">{`- 개인사업 하면서 남는 시간에 리액트 위주로 웹개발을 독학하였습니다`->React.string}</div>
                 </li>
+                <li>
+                  {`NE능률`->React.string}
+                  <div className="sub">{`- 2022.02 ~ 현재`->React.string}</div>
+                  <div className="sub">{`- 학생 커뮤니티 앱 공작소를 개발중입니다`->React.string}</div>
+                </li>
                 </ul>
               </div>
             </div>               
             <div className="project">
-              <div className="title center">
+              <div className="titleWrapper center">
                 <h1><b>{`핵심역량`->React.string}</b></h1>                
                 <h3></h3>
-                <img  className="img_tech" src="https://sc372.github.io/2017/05/30/javascript-intro/javascript.png"/>
-                <img  className="img_tech" src="https://i.pinimg.com/736x/c3/8e/e8/c38ee8475ee7f3680f706c56c3a1194c.jpg"/>
-                <img  className="img_tech" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png"/>
-                <img  className="img_tech" src="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"/>
-                <img  className="img_tech" src="https://res.cloudinary.com/practicaldev/image/fetch/s--kpVkTsRw--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/r7kj8y4dfyd1aw989edi.png"/>
-                <img  className="img_tech" src="https://poiemaweb.com/img/mongo-db-logo.png"/>
+                <div className=`imgWrapper core`>
+                    <img  className="img_tech" src="js-logo.png"/>
+                    <img  className="img_tech" src="ts-logo.png"/>
+                    <img  className="img_tech" src="express-logo-2.png"/>
+                    <img  className="img_tech" src="react-logo.png"/>
+                    <img  className="img_tech" src="nextjs-logo.svg"/>
+                    <img  className="img_tech" src="https://poiemaweb.com/img/mongo-db-logo.png"/>
+                </div>
               </div>
               <div className="description">
 
@@ -86,31 +94,50 @@ let default = () =>
             </div>     
 
 				<div className="strong_font">
-					<h1>{`경력`->React.string}</h1>
+					<h1>{`경력`-> s}</h1>
 				</div>
 
 				<div className="project">
-					<div className="title">
+					<div className="titleWrapper">                        
+						<h1><b>{`NE 능률`->React.string}</b></h1>
+						<h4><i>{`(2022.02 ~)`-> s}</i></h4>
+						<h3><i>{`프리랜서로 학생 커뮤니티 앱 공작소를 유지보수/확장하였습니다`-> s}</i></h3>
+                        <div className="imgWrapper ne">
+                            <img className="general-logo" src="react_icon_square.png" width="240px"></img>
+                            <img className="general-logo" src="cypress-logo.png" width="240px"></img>
+                            <img className="tailwind-logo" src="tailwind-logo-2.png" width="240px"></img>
+                        </div>
+					</div>
+					<div className="description">
+						<ul>
+                            <li>{`페이지 단위로 레이지 로딩을 적용하여 랜딩페이지 로딩을 약 300ms 감소시켰습니다`->React.string}</li>
+                            <li>{`레이지로딩 및 웹팩 번들링 최적화로 랜딩페이지의 js사이즈를 837kB -> 191kB로 약 77.2% 감소시켰습니다`->React.string}</li>
+                            <li>{`cypress기반의 E2E 테스트를 모든 페이지에 도입하였습니다`->React.string}</li>					    	
+						</ul>
+					</div>
+				</div>
+
+				<div className="project">
+					<div className="titleWrapper">
 						<h1><b>{`개발자 커뮤니티 사이트 구현`->React.string}</b></h1>
 						<h4><i>{`(2021.01 ~ )`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
 						<h3><i>{`개발 커뮤니티에서 읽을만한 글을 한데모아 게시판 형태로 보여주는 웹사이트입니다`->React.string}</i></h3>
-            <img className="next-title-logo" src="nextjs-logo.svg" width="240px"></img>
-
+                        <img className="next-title-logo" src="nextjs-logo.svg" width="240px"></img>
 					</div>
 					<div className="description">
 						<ul>
-						<li>{`참여도 : 100%`->React.string}</li>
-						<li>{`URL : https://devkr.info`->React.string}</li>
-						<li>{`타입스크립트와 SCSS 기반으로 구현하였습니다`->React.string}</li>
-						<li>{`헤드리스 크롬 라이브러리인 puppeteer로 reddit, okky, dcinside의 글을 스크래핑하여 DB에 저장하였습니다`->React.string}</li>
-						<li>{`회원가입 및 로그인 페이지를 구현했습니다`->React.string}</li>
-						<li>{`MongoDB Realm 및 GraphQL기반의 데이터 요청으로 게시판을 구현했습니다`->React.string}</li>
-						<li>{`게시물 검색기능을 구현했습니다`->React.string}</li>
-						<li>{`자유게시판의 글등록, 삭제, 댓글쓰기 및 스크롤에 반응하는 글 로딩하기 기능을 구현했습니다`->React.string}</li>
-						<li>{`모바일 및 데스크탑 페이지를 별도로 만들지 않고 디바이스에 맞춰 동적으로 변하는 반응형 웹으로 구현했습니다`->React.string}</li>
-						<li>{`서버리스 기반의 AWS Lambda@Edge, Cloudfront를 이용하여 배포했습니다`->React.string}</li>
-						<li>
+                            <li>{`참여도 : 100%`->React.string}</li>
+                            <li>{`URL : https://devkr.info`->React.string}</li>
+                            <li>{`타입스크립트와 SCSS 기반으로 구현하였습니다`->React.string}</li>
+                            <li>{`헤드리스 크롬 라이브러리인 puppeteer로 reddit, okky, dcinside의 글을 스크래핑하여 DB에 저장하였습니다`->React.string}</li>
+                            <li>{`회원가입 및 로그인 페이지를 구현했습니다`->React.string}</li>
+                            <li>{`MongoDB Realm 및 GraphQL기반의 데이터 요청으로 게시판을 구현했습니다`->React.string}</li>
+                            <li>{`게시물 검색기능을 구현했습니다`->React.string}</li>
+                            <li>{`자유게시판의 글등록, 삭제, 댓글쓰기 및 스크롤에 반응하는 글 로딩하기 기능을 구현했습니다`->React.string}</li>
+                            <li>{`모바일 및 데스크탑 페이지를 별도로 만들지 않고 디바이스에 맞춰 동적으로 변하는 반응형 웹으로 구현했습니다`->React.string}</li>
+                            <li>{`서버리스 기반의 AWS Lambda@Edge, Cloudfront를 이용하여 배포했습니다`->React.string}</li>
+					    	<li>
 							{`스택`->React.string}
 							<ul>
 								<li>{`Next.js, recoil, CSS Module, SCSS, styled-jsx`->React.string}</li>
@@ -124,7 +151,7 @@ let default = () =>
 				</div>
 
 				<div className="project">
-					<div className="title">
+					<div className="titleWrapper">
 						<h1><b>{`학생 출결관리 사이트 구현`->React.string}</b></h1>
 						<h4><i>{`(2020.01 ~)`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
@@ -147,11 +174,11 @@ let default = () =>
 				</div>
 
 				<div className="project">
-					<div className="title">
+					<div className="titleWrapper">
 						<h1><b>{`커뮤니티 베스트글 모음 사이트 구현`->React.string}</b></h1>
 						<h4><i>{`(2019.01 ~ 2019.10)`->React.string}</i></h4>
 						<h3><i>{`(1인 프로젝트)`->React.string}</i></h3>
-            <img className="express-title-logo" src="express-logo.png" width="350px"></img>
+            <img className="express-title-logo" src="express-logo-2.png" width="350px"></img>
 					</div>
 					<div className="description">
 						<ul>
@@ -169,7 +196,7 @@ let default = () =>
 
 
 				<div className="project">
-					<div className="title center">
+					<div className="titleWrapper center">
 						<h1><b>{`해바라기 소프트`->React.string}</b></h1>
 						<h4><i>{`(2018.05 ~ 2018.10)`->React.string}</i></h4>
 						<h4><i>{`전자투표 솔루션 업체에서 프론트 및 백엔드 엔지니어로 업무를 수행 하였습니다`->React.string}</i></h4>
@@ -198,7 +225,7 @@ let default = () =>
 
 
         <div className="project">
-                <div className="title center">
+                <div className="titleWrapper center">
                   <h1><b>{`파워보이스`->React.string}</b></h1>
                   <h4><i>{`(2017.01 ~ 2017.12)`->React.string}</i></h4>
                   <h4><i>{`자연어처리 업무를 담당하였습니다`->React.string}</i></h4>
@@ -235,7 +262,7 @@ let default = () =>
 				</div>
 
 				<div className="project">
-					<div className="title">
+					<div className="titleWrapper">
 						<img className="img_title js_title_logo" width="200px" src="js_icon.png"/>
 						<p className="mobile_title"><strong>{`Javascript`->React.string}</strong></p>
 					</div>
@@ -254,7 +281,7 @@ let default = () =>
 
 
 				<div className="project">
-					<div className="title">
+					<div className="titleWrapper">
 					<img  className="img_title ts_title_logo" src="ts_logo.svg" />
 						<p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
 					</div>
@@ -266,10 +293,14 @@ let default = () =>
 				</div>
 
 				<div className="project">
-					<div className="title">
-					<img  className="img_title rescript_title_logo" src="rescript-logo.svg" />
-						<p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
-					</div>
+                    <div className="titleWrapper">
+                        <div className="imgWrapper toyProject">
+                            <img className="rescript_title_logo" src="rescript-logo.svg" />
+                            <img className="" src="elm_logo.png" />
+                            <img className="cljs-logo" src="cljs-logo.png" />
+                            // <p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
+                        </div>                    
+                    </div>
 					<div className="description">    
 						<ul>           
 							<li>{`몇가지 토이프로젝트를 수행한 경험이 있습니다`->React.string}</li>
@@ -278,7 +309,7 @@ let default = () =>
 				</div>
 
 				<div className="project react_wrapper">
-					<div className="title">
+					<div className="titleWrapper">
 						<img className="img_title react_title_img" src="react_icon_square.png"/>
 						<p className="mobile_title"><strong>{`React`->React.string}</strong></p>
 					</div>
@@ -295,7 +326,7 @@ let default = () =>
 
 
             				<div className="project">
-					<div className="title center">
+					<div className="titleWrapper center">
 						<h1><b>{`배포`->React.string}</b></h1>
 						<img className="deploy_icon" src="deploy_icon.png"/>
 						<h3></h3>
@@ -314,7 +345,7 @@ let default = () =>
 
 
 	<div className="project">
-					<div className="title center">
+					<div className="titleWrapper center">
 						<h1><b>{`개인정보`->React.string}</b></h1>
 						<h3><i></i></h3>
 						<img  className="personal_info_icon" width={"150px"} src="/profile_icon.png"/>
@@ -359,7 +390,6 @@ let default = () =>
                 <img className="rescript_logo" alt="rescript" src="rescript-logo.svg" width="150px"></img>
                 {` , `->React.string}
                 <img className="astro_logo" alt="astro.build" src="astro_logo.jpg" width="50px"></img>
-
                 {` 로 작성되었고 Cloudflare Pages에 배포되었습니다`->React.string}
             </footer>      
       </header>
