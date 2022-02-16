@@ -35,31 +35,31 @@ let default = () =>
               </div>
               <div className="description">
                 <ul>
-                <li>
-                  {`건국대 컴공`->React.string}
-                  <div className="sub">{`- 2015.03 ~ 2017.02`->React.string}</div>
-                  <div className="sub">{`- 편입하여 3~4학년 과정을 이수하였습니다`->React.string}</div>
-                </li>
-                <li>
-                  {`파워보이스`->React.string}
-                  <div className="sub">{`- 2017.01 ~ 2017.12`->React.string}</div>
-                  <div className="sub">{`- C++ & 파이썬으로 자연어처리(NLP) 업무 수행`->React.string}</div>
-                </li>
-                <li>
-                  {`해바라기소프트`->React.string}
-                  <div className="sub">{`- 2018.05 ~ 2018.11`->React.string}</div>
-                  <div className="sub">{`- 웹개발입문. 스프링 + 제이쿼리로 사이트 구현`->React.string}</div>
-                </li>
-                <li>
-                  {`개인사업`->React.string}
-                  <div className="sub">{`- 2019.01 ~ 현재`->React.string}</div>
-                  <div className="sub">{`- 개인사업 하면서 남는 시간에 리액트 위주로 웹개발을 독학하였습니다`->React.string}</div>
-                </li>
-                <li>
-                  {`NE능률`->React.string}
-                  <div className="sub">{`- 2022.02 ~ 현재`->React.string}</div>
-                  <div className="sub">{`- 학생 커뮤니티 앱 공작소를 개발중입니다`->React.string}</div>
-                </li>
+                        <li>
+                        {`NE능률`->React.string}
+                        <div className="sub">{`- 2022.02 ~ 현재`->React.string}</div>
+                        <div className="sub">{`- 학생 커뮤니티 앱 공작소를 개발중입니다`->React.string}</div>
+                        </li>                
+                        <li>
+                        {`개인사업`->React.string}
+                        <div className="sub">{`- 2019.01 ~ 현재`->React.string}</div>
+                        <div className="sub">{`- 개인사업 하면서 남는 시간에 리액트 위주로 웹개발을 독학하였습니다`->React.string}</div>
+                        </li>                        
+                        <li>
+                        {`해바라기소프트`->React.string}
+                        <div className="sub">{`- 2018.05 ~ 2018.11`->React.string}</div>
+                        <div className="sub">{`- 웹개발입문. 스프링 + 제이쿼리로 사이트 구현`->React.string}</div>
+                        </li>
+                        <li>
+                        {`파워보이스`->React.string}
+                        <div className="sub">{`- 2017.01 ~ 2017.12`->React.string}</div>
+                        <div className="sub">{`- C++ & 파이썬으로 자연어처리(NLP) 업무 수행`->React.string}</div>
+                        </li>
+                        <li>
+                        {`건국대 컴공`->React.string}
+                        <div className="sub">{`- 2015.03 ~ 2017.02`->React.string}</div>
+                        <div className="sub">{`- 편입하여 3~4학년 과정을 이수하였습니다`->React.string}</div>
+                        </li>
                 </ul>
               </div>
             </div>               
@@ -73,39 +73,40 @@ let default = () =>
                     <img  className="img_tech" src="express-logo-2.png"/>
                     <img  className="img_tech" src="react-logo.png"/>
                     <img  className="img_tech" src="nextjs-logo.svg"/>
-                    <img  className="img_tech" src="https://poiemaweb.com/img/mongo-db-logo.png"/>
+                    <img className="img_tech" src="tailwind-logo-2.png" />
+                    <img className="img_tech" src="cypress-logo.png" />
                 </div>
               </div>
               <div className="description">
 
                 <li><strong>{`next.js`->React.string}</strong>{` 또는 `->React.string}<strong>{`express`->React.string}</strong>{` 기반의 웹개발을 수행합니다`->React.string}</li>
                 <li>{`프로젝트 생성에서 배포 및 도메인 연결까지 개발 전과정을 혼자 진행할 수 있습니다`->React.string}</li>
-                <li>{`Next.js의 `->React.string}<strong>{`API Routes`->React.string}</strong>{`를 통하여 `->React.string}<strong>{`MongoDB`->React.string}</strong>{`의 CRUD가 가능합니다`->React.string}</li>
-                <li><strong>{`MongoDB Atlas`->React.string}</strong>{`및 `->React.string}<strong>{`Supabase`->React.string}</strong>{`기반의 DB 생성 및 관리가 가능합니다`->React.string}</li>
+                <li><strong>{`MongoDB Atlas`->React.string}</strong>{`및 `->React.string}<strong>{`Supabase`->React.string}</strong>{`기반의 DB 생성, 관리, CRUD가 가능합니다`->React.string}</li>
                 <li>{`함수형 컴포넌트를 이용하여 SoC원칙에 입각하여 리액트 컴포넌트를 개발합니다`->React.string}</li>
-                <li>{`ES2021까지 `->React.string}<strong>{`ECMA 스펙`->React.string}</strong>{`에 대한 거의 모든것을 이해합니다 (promise, generator, async 등)`->React.string}</li>
-                <li>{`jQuery 없이 querySelector및 HTMLElement등의 `->React.string}<strong>{`웹표준 API만으로 엘리먼트를`->React.string}</strong>{` 조작하는데 불편함이 없습니다`->React.string}</li>
+                <li>{`ES2022까지 `->React.string}<strong>{`ECMA 스펙`->React.string}</strong>{`에 대한 거의 모든것을 이해합니다 (promise, generator, async 등)`->React.string}</li>
+                <li>{`jQuery 없이 querySelector및 HTMLElement등의 `->React.string}<strong>{`웹표준 API만으로 엘리먼트를 조작`->React.string}</strong>{`하는데 불편함이 없습니다`->React.string}</li>
                 <li>{`웹브라우저의 렌더링 프로세스 및 js 런타임 환경에 입각하여 `->React.string}<strong>{`코드의 실행순서를 이해`->React.string}</strong>{`할 수 있습니다`->React.string}</li>
-                <li><strong>{`SCSS, CSS Module`->React.string}</strong>{` 기반의 스타일링을 지향합니다`->React.string}</li>
+                <li><strong>{`SCSS, CSS Module, tailwind`->React.string}</strong>{` 기반의 스타일링을 지향합니다`->React.string}</li>
                 <li>{`디바이스에 따라서 가변적으로 표현되는 `->React.string}<strong>{`반응형 웹 디자인`->React.string}</strong>{` 경험이 존재합니다`->React.string}</li>
-                <li>{`영문독해, 쓰기, 리스닝 가능하며 `->React.string}<strong>{`공식문서 리딩`->React.string}</strong>{`을 지향합니다. 인터넷 검색만으로 해결이 불가능한 문제 발생시 스택오버플로우 및 개발 커뮤니티에 영문으로 커뮤니케이션하여 문제해결한 건이 다수 존재합니다`->React.string}</li>
-                <li><strong>{`flutter`->React.string}</strong>{`기반의 모바일 앱을 개발하여 플레이스토어에 출시한 경력이 존재합니다`->React.string}</li>                
+                <li>{`영문독해, 쓰기, 리스닝 가능하며 `->React.string}<strong>{`공식문서 리딩`->React.string}</strong>{`을 지향합니다`->React.string}</li>
+                <li>{`E2E 테스트를 수행합니다`->s}</li>                
+                <li>{`네트워크 IO시에 예외처리 및 런타임 타입체킹에 신경씁니다`->s}</li>                
               </div>           
             </div>     
 
 				<div className="strong_font">
 					<h1>{`경력`-> s}</h1>
 				</div>
-
 				<div className="project">
 					<div className="titleWrapper">                        
 						<h1><b>{`NE 능률`->React.string}</b></h1>
 						<h4><i>{`(2022.02 ~)`-> s}</i></h4>
-						<h3><i>{`프리랜서로 학생 커뮤니티 앱 공작소를 유지보수/확장하였습니다`-> s}</i></h3>
+						<h3><i>{`프리랜서로 학생 커뮤니티 앱 공작소의 고도화 작업을 수행하였습니다`-> s}</i></h3>
                         <div className="imgWrapper ne">
-                            <img className="general-logo" src="react_icon_square.png" width="240px"></img>
-                            <img className="general-logo" src="cypress-logo.png" width="240px"></img>
-                            <img className="tailwind-logo" src="tailwind-logo-2.png" width="240px"></img>
+                            <img className="general-logo" src="ts-logo.png"/>
+                            <img className="general-logo" src="react-logo.png"/>
+                            <img className="general-logo" src="cypress-logo.png" />
+                            <img className="general-logo" src="tailwind-logo-2.png" />
                         </div>
 					</div>
 					<div className="description">
@@ -268,7 +269,7 @@ let default = () =>
 					</div>
 					<div className="description">
 						<ul>
-						<li>{`ES1부터 ES2021까지 거의 `->React.string}<strong>{`모든 문법`->React.string}</strong>{`을 읽고 쓰고 이해할 수 있습니다`->React.string}</li>
+						<li>{`ES1부터 ES2022까지 `->React.string}<strong>{`거의 모든 문법`->React.string}</strong>{`을 읽고 쓰고 이해할 수 있습니다`->React.string}</li>
 						<li>{`콜백과 이벤트 루프, 프라미스와 마이크로테스크 큐, async함수 및 자바스크립트 런타임에서 `->React.string}<strong>{`코드가 어떤 순서대로 실행`->React.string}</strong>{`되는지, 왜 그렇게 실행되는지 이해할 수 있습니다.`->React.string}</li>
 						<li>{`코드의 실행흐름이 이해가지 않아서 버그가 발생하는 일이 없습니다`->React.string}</li>
 						<li>{`jQuery 없이 querySelector및 HTMLElement등의 Web API로 `->React.string}<strong>{`엘리먼트를 다루고 조작`->React.string}</strong>{`하는데 불편함이 없습니다`->React.string}</li>
@@ -292,22 +293,6 @@ let default = () =>
 					</div> 
 				</div>
 
-				<div className="project">
-                    <div className="titleWrapper">
-                        <div className="imgWrapper toyProject">
-                            <img className="rescript_title_logo" src="rescript-logo.svg" />
-                            <img className="" src="elm_logo.png" />
-                            <img className="cljs-logo" src="cljs-logo.png" />
-                            // <p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
-                        </div>                    
-                    </div>
-					<div className="description">    
-						<ul>           
-							<li>{`몇가지 토이프로젝트를 수행한 경험이 있습니다`->React.string}</li>
-						</ul>   
-					</div> 
-				</div>
-
 				<div className="project react_wrapper">
 					<div className="titleWrapper">
 						<img className="img_title react_title_img" src="react_icon_square.png"/>
@@ -323,6 +308,22 @@ let default = () =>
 					</div>
 				</div>
 
+
+				<div className="project">
+                    <div className="titleWrapper">
+                        <div className="imgWrapper toyProject">
+                            <img className="rescript_title_logo" src="rescript-logo.svg" />
+                            <img className="" src="elm_logo.png" />
+                            <img className="cljs-logo" src="cljs-logo.png" />
+                            // <p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
+                        </div>                    
+                    </div>
+					<div className="description">    
+						<ul>           
+							<li>{`몇가지 토이프로젝트를 수행한 경험이 있습니다`->React.string}</li>
+						</ul>   
+					</div> 
+				</div>
 
 
             				<div className="project">

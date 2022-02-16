@@ -38,27 +38,27 @@ function Resume$default(Props) {
                           className: "titleWrapper center"
                         }, React.createElement("h1", undefined, React.createElement("b", undefined, "간단이력")), React.createElement("h3", undefined)), React.createElement("div", {
                           className: "description"
-                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "건국대 컴공", React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 2015.03 ~ 2017.02"), React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 편입하여 3~4학년 과정을 이수하였습니다")), React.createElement("li", undefined, "파워보이스", React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 2017.01 ~ 2017.12"), React.createElement("div", {
-                                      className: "sub"
-                                    }, "- C++ & 파이썬으로 자연어처리(NLP) 업무 수행")), React.createElement("li", undefined, "해바라기소프트", React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 2018.05 ~ 2018.11"), React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 웹개발입문. 스프링 + 제이쿼리로 사이트 구현")), React.createElement("li", undefined, "개인사업", React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 2019.01 ~ 현재"), React.createElement("div", {
-                                      className: "sub"
-                                    }, "- 개인사업 하면서 남는 시간에 리액트 위주로 웹개발을 독학하였습니다")), React.createElement("li", undefined, "NE능률", React.createElement("div", {
+                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "NE능률", React.createElement("div", {
                                       className: "sub"
                                     }, "- 2022.02 ~ 현재"), React.createElement("div", {
                                       className: "sub"
-                                    }, "- 학생 커뮤니티 앱 공작소를 개발중입니다"))))), React.createElement("div", {
+                                    }, "- 학생 커뮤니티 앱 공작소를 개발중입니다")), React.createElement("li", undefined, "개인사업", React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 2019.01 ~ 현재"), React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 개인사업 하면서 남는 시간에 리액트 위주로 웹개발을 독학하였습니다")), React.createElement("li", undefined, "해바라기소프트", React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 2018.05 ~ 2018.11"), React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 웹개발입문. 스프링 + 제이쿼리로 사이트 구현")), React.createElement("li", undefined, "파워보이스", React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 2017.01 ~ 2017.12"), React.createElement("div", {
+                                      className: "sub"
+                                    }, "- C++ & 파이썬으로 자연어처리(NLP) 업무 수행")), React.createElement("li", undefined, "건국대 컴공", React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 2015.03 ~ 2017.02"), React.createElement("div", {
+                                      className: "sub"
+                                    }, "- 편입하여 3~4학년 과정을 이수하였습니다"))))), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper center"
@@ -81,29 +81,32 @@ function Resume$default(Props) {
                                   src: "nextjs-logo.svg"
                                 }), React.createElement("img", {
                                   className: "img_tech",
-                                  src: "https://poiemaweb.com/img/mongo-db-logo.png"
+                                  src: "tailwind-logo-2.png"
+                                }), React.createElement("img", {
+                                  className: "img_tech",
+                                  src: "cypress-logo.png"
                                 }))), React.createElement("div", {
                           className: "description"
-                        }, React.createElement("li", undefined, React.createElement("strong", undefined, "next.js"), " 또는 ", React.createElement("strong", undefined, "express"), " 기반의 웹개발을 수행합니다"), React.createElement("li", undefined, "프로젝트 생성에서 배포 및 도메인 연결까지 개발 전과정을 혼자 진행할 수 있습니다"), React.createElement("li", undefined, "Next.js의 ", React.createElement("strong", undefined, "API Routes"), "를 통하여 ", React.createElement("strong", undefined, "MongoDB"), "의 CRUD가 가능합니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "MongoDB Atlas"), "및 ", React.createElement("strong", undefined, "Supabase"), "기반의 DB 생성 및 관리가 가능합니다"), React.createElement("li", undefined, "함수형 컴포넌트를 이용하여 SoC원칙에 입각하여 리액트 컴포넌트를 개발합니다"), React.createElement("li", undefined, "ES2021까지 ", React.createElement("strong", undefined, "ECMA 스펙"), "에 대한 거의 모든것을 이해합니다 (promise, generator, async 등)"), React.createElement("li", undefined, "jQuery 없이 querySelector및 HTMLElement등의 ", React.createElement("strong", undefined, "웹표준 API만으로 엘리먼트를"), " 조작하는데 불편함이 없습니다"), React.createElement("li", undefined, "웹브라우저의 렌더링 프로세스 및 js 런타임 환경에 입각하여 ", React.createElement("strong", undefined, "코드의 실행순서를 이해"), "할 수 있습니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "SCSS, CSS Module"), " 기반의 스타일링을 지향합니다"), React.createElement("li", undefined, "디바이스에 따라서 가변적으로 표현되는 ", React.createElement("strong", undefined, "반응형 웹 디자인"), " 경험이 존재합니다"), React.createElement("li", undefined, "영문독해, 쓰기, 리스닝 가능하며 ", React.createElement("strong", undefined, "공식문서 리딩"), "을 지향합니다. 인터넷 검색만으로 해결이 불가능한 문제 발생시 스택오버플로우 및 개발 커뮤니티에 영문으로 커뮤니케이션하여 문제해결한 건이 다수 존재합니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "flutter"), "기반의 모바일 앱을 개발하여 플레이스토어에 출시한 경력이 존재합니다"))), React.createElement("div", {
+                        }, React.createElement("li", undefined, React.createElement("strong", undefined, "next.js"), " 또는 ", React.createElement("strong", undefined, "express"), " 기반의 웹개발을 수행합니다"), React.createElement("li", undefined, "프로젝트 생성에서 배포 및 도메인 연결까지 개발 전과정을 혼자 진행할 수 있습니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "MongoDB Atlas"), "및 ", React.createElement("strong", undefined, "Supabase"), "기반의 DB 생성, 관리, CRUD가 가능합니다"), React.createElement("li", undefined, "함수형 컴포넌트를 이용하여 SoC원칙에 입각하여 리액트 컴포넌트를 개발합니다"), React.createElement("li", undefined, "ES2022까지 ", React.createElement("strong", undefined, "ECMA 스펙"), "에 대한 거의 모든것을 이해합니다 (promise, generator, async 등)"), React.createElement("li", undefined, "jQuery 없이 querySelector및 HTMLElement등의 ", React.createElement("strong", undefined, "웹표준 API만으로 엘리먼트를 조작"), "하는데 불편함이 없습니다"), React.createElement("li", undefined, "웹브라우저의 렌더링 프로세스 및 js 런타임 환경에 입각하여 ", React.createElement("strong", undefined, "코드의 실행순서를 이해"), "할 수 있습니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "SCSS, CSS Module, tailwind"), " 기반의 스타일링을 지향합니다"), React.createElement("li", undefined, "디바이스에 따라서 가변적으로 표현되는 ", React.createElement("strong", undefined, "반응형 웹 디자인"), " 경험이 존재합니다"), React.createElement("li", undefined, "영문독해, 쓰기, 리스닝 가능하며 ", React.createElement("strong", undefined, "공식문서 리딩"), "을 지향합니다"), React.createElement("li", undefined, "E2E 테스트를 수행합니다"), React.createElement("li", undefined, "네트워크 IO시에 예외처리 및 런타임 타입체킹에 신경씁니다"))), React.createElement("div", {
                       className: "strong_font"
                     }, React.createElement("h1", undefined, "경력")), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper"
-                        }, React.createElement("h1", undefined, React.createElement("b", undefined, "NE 능률")), React.createElement("h4", undefined, React.createElement("i", undefined, "(2022.02 ~)")), React.createElement("h3", undefined, React.createElement("i", undefined, "프리랜서로 학생 커뮤니티 앱 공작소를 유지보수/확장하였습니다")), React.createElement("div", {
+                        }, React.createElement("h1", undefined, React.createElement("b", undefined, "NE 능률")), React.createElement("h4", undefined, React.createElement("i", undefined, "(2022.02 ~)")), React.createElement("h3", undefined, React.createElement("i", undefined, "프리랜서로 학생 커뮤니티 앱 공작소의 고도화 작업을 수행하였습니다")), React.createElement("div", {
                               className: "imgWrapper ne"
                             }, React.createElement("img", {
                                   className: "general-logo",
-                                  src: "react_icon_square.png",
-                                  width: "240px"
+                                  src: "ts-logo.png"
                                 }), React.createElement("img", {
                                   className: "general-logo",
-                                  src: "cypress-logo.png",
-                                  width: "240px"
+                                  src: "react-logo.png"
                                 }), React.createElement("img", {
-                                  className: "tailwind-logo",
-                                  src: "tailwind-logo-2.png",
-                                  width: "240px"
+                                  className: "general-logo",
+                                  src: "cypress-logo.png"
+                                }), React.createElement("img", {
+                                  className: "general-logo",
+                                  src: "tailwind-logo-2.png"
                                 }))), React.createElement("div", {
                           className: "description"
                         }, React.createElement("ul", undefined, React.createElement("li", undefined, "페이지 단위로 레이지 로딩을 적용하여 랜딩페이지 로딩을 약 300ms 감소시켰습니다"), React.createElement("li", undefined, "레이지로딩 및 웹팩 번들링 최적화로 랜딩페이지의 js사이즈를 837kB -> 191kB로 약 77.2% 감소시켰습니다"), React.createElement("li", undefined, "cypress기반의 E2E 테스트를 모든 페이지에 도입하였습니다")))), React.createElement("div", {
@@ -187,7 +190,7 @@ function Resume$default(Props) {
                               className: "mobile_title"
                             }, React.createElement("strong", undefined, "Javascript"))), React.createElement("div", {
                           className: "description"
-                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "ES1부터 ES2021까지 거의 ", React.createElement("strong", undefined, "모든 문법"), "을 읽고 쓰고 이해할 수 있습니다"), React.createElement("li", undefined, "콜백과 이벤트 루프, 프라미스와 마이크로테스크 큐, async함수 및 자바스크립트 런타임에서 ", React.createElement("strong", undefined, "코드가 어떤 순서대로 실행"), "되는지, 왜 그렇게 실행되는지 이해할 수 있습니다."), React.createElement("li", undefined, "코드의 실행흐름이 이해가지 않아서 버그가 발생하는 일이 없습니다"), React.createElement("li", undefined, "jQuery 없이 querySelector및 HTMLElement등의 Web API로 ", React.createElement("strong", undefined, "엘리먼트를 다루고 조작"), "하는데 불편함이 없습니다"), React.createElement("li", undefined, "필요한 ", React.createElement("strong", undefined, "정규식"), "은 대부분 이해하고 구현할 수 있습니다"), React.createElement("li", undefined, "함수형의 원칙인 순수함수의 지향 및 ", React.createElement("strong", undefined, "부수효과의 최소화"), "에 입각하여 개발합니다"), React.createElement("li", undefined, "읽기쉬운 코드가 최고의 코드라는 가치에 입각하여 누가 언제 읽어도 이해할 수 있도록 ", React.createElement("strong", undefined, "선언적"), "으로 개발합니다")))), React.createElement("div", {
+                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "ES1부터 ES2022까지 ", React.createElement("strong", undefined, "거의 모든 문법"), "을 읽고 쓰고 이해할 수 있습니다"), React.createElement("li", undefined, "콜백과 이벤트 루프, 프라미스와 마이크로테스크 큐, async함수 및 자바스크립트 런타임에서 ", React.createElement("strong", undefined, "코드가 어떤 순서대로 실행"), "되는지, 왜 그렇게 실행되는지 이해할 수 있습니다."), React.createElement("li", undefined, "코드의 실행흐름이 이해가지 않아서 버그가 발생하는 일이 없습니다"), React.createElement("li", undefined, "jQuery 없이 querySelector및 HTMLElement등의 Web API로 ", React.createElement("strong", undefined, "엘리먼트를 다루고 조작"), "하는데 불편함이 없습니다"), React.createElement("li", undefined, "필요한 ", React.createElement("strong", undefined, "정규식"), "은 대부분 이해하고 구현할 수 있습니다"), React.createElement("li", undefined, "함수형의 원칙인 순수함수의 지향 및 ", React.createElement("strong", undefined, "부수효과의 최소화"), "에 입각하여 개발합니다"), React.createElement("li", undefined, "읽기쉬운 코드가 최고의 코드라는 가치에 입각하여 누가 언제 읽어도 이해할 수 있도록 ", React.createElement("strong", undefined, "선언적"), "으로 개발합니다")))), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper"
@@ -199,6 +202,17 @@ function Resume$default(Props) {
                             }, React.createElement("strong", undefined, "Typescript"))), React.createElement("div", {
                           className: "description"
                         }, React.createElement("ul", undefined, React.createElement("li", undefined, "any 및 강제 형변환을 지양하고 타입가드를 통한 타입 추론을 지향합니다")))), React.createElement("div", {
+                      className: "project react_wrapper"
+                    }, React.createElement("div", {
+                          className: "titleWrapper"
+                        }, React.createElement("img", {
+                              className: "img_title react_title_img",
+                              src: "react_icon_square.png"
+                            }), React.createElement("p", {
+                              className: "mobile_title"
+                            }, React.createElement("strong", undefined, "React"))), React.createElement("div", {
+                          className: "description"
+                        }, React.createElement("ul", undefined, React.createElement("li", undefined, React.createElement("strong", undefined, "React hooks"), "기반의 함수형 컴포넌트 기반으로 개발합니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "SoC"), "철학에 기반하여 컴포넌트를 분리하여 작성합니다"), React.createElement("li", undefined, "React Fiber기반의 리컨사일러가 어떤 타이밍에 컴포넌트를 재호출하고 언제 이펙트함수 등이 호출되는지 ", React.createElement("strong", undefined, "실행흐름"), "을 이해할 수 있습니다"), React.createElement("li", undefined, "함수형 컴포넌트 기반에 필수적인 ", React.createElement("strong", undefined, "클로저"), "의 작동원리를 숙지하고 있습니다")))), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper"
@@ -216,17 +230,6 @@ function Resume$default(Props) {
                                 }))), React.createElement("div", {
                           className: "description"
                         }, React.createElement("ul", undefined, React.createElement("li", undefined, "몇가지 토이프로젝트를 수행한 경험이 있습니다")))), React.createElement("div", {
-                      className: "project react_wrapper"
-                    }, React.createElement("div", {
-                          className: "titleWrapper"
-                        }, React.createElement("img", {
-                              className: "img_title react_title_img",
-                              src: "react_icon_square.png"
-                            }), React.createElement("p", {
-                              className: "mobile_title"
-                            }, React.createElement("strong", undefined, "React"))), React.createElement("div", {
-                          className: "description"
-                        }, React.createElement("ul", undefined, React.createElement("li", undefined, React.createElement("strong", undefined, "React hooks"), "기반의 함수형 컴포넌트 기반으로 개발합니다"), React.createElement("li", undefined, React.createElement("strong", undefined, "SoC"), "철학에 기반하여 컴포넌트를 분리하여 작성합니다"), React.createElement("li", undefined, "React Fiber기반의 리컨사일러가 어떤 타이밍에 컴포넌트를 재호출하고 언제 이펙트함수 등이 호출되는지 ", React.createElement("strong", undefined, "실행흐름"), "을 이해할 수 있습니다"), React.createElement("li", undefined, "함수형 컴포넌트 기반에 필수적인 ", React.createElement("strong", undefined, "클로저"), "의 작동원리를 숙지하고 있습니다")))), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper center"

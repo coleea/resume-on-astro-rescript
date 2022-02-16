@@ -6,9 +6,9 @@
     "g": "git add . && git commit -m \"_\" && git push origin master ",
     "dev:rescript": "rescript build -w",
     "r": "rescript build",
-    "dev": "astro dev",
+    "dev": "concurrently \"rescript build -w\" \"astro dev\"",
     "start": "astro dev",
-    "build": "npm i && rescript build && astro build",
+    "build": "npm i && rescript build -with-deps && astro build",
     "preview": "astro preview"
   },
   "devDependencies": {
@@ -16,6 +16,7 @@
     "@rescript/react": "^0.10.3",
     "@ryyppy/rescript-promise": "^2.1.0",
     "astro": "^0.22.20",
+    "concurrently": "^7.0.0",
     "rescript": "^9.1.4",
     "rescript-remix": "^0.2.1",
     "rescript-webapi": "^0.6.0",
