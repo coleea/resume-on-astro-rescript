@@ -1,17 +1,17 @@
 rescript = 1
-g_finger := /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml/install.stamp
-g_finger := /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml/install.stamp
-g_finger := /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml/install.stamp
-g_finger := /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml/install.stamp
+g_finger := /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml/install.stamp
+g_finger := /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml/install.stamp
+g_finger := /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml/install.stamp
+g_finger := /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml/install.stamp
 rule astj
-  command = /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/linux/bsc.exe  -warn-error +101 -bs-v 9.1.4 -bs-jsx 3  -absname -bs-ast -o $out $i
+  command = /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/darwin/bsc.exe  -warn-error +101 -bs-v 9.1.4 -bs-jsx 3  -absname -bs-ast -o $out $i
 o src/components/Div.ast : astj ../../src/components/Div.res
 rule deps
-  command = /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/linux/bsb_helper.exe -hash 06b51d432edb458b6ce18407225341b2 $in
+  command = /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/darwin/bsb_helper.exe -hash 06b51d432edb458b6ce18407225341b2 $in
   restat = 1
 o src/components/Div.d : deps src/components/Div.ast
 rule mij
-  command = /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/linux/bsc.exe -I src/components -I /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml -I /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml -I /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml -I /mnt/mx500-234g/project/apps-web/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml   -warn-error +101 -bs-package-name rescript-project-template -bs-package-output es6:$in_d:.js -bs-v $g_finger $i
+  command = /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/darwin/bsc.exe -I src/components -I /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml -I /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml -I /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml -I /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml   -warn-error +101 -bs-package-name rescript-project-template -bs-package-output es6:$in_d:.js -bs-v $g_finger $i
   dyndep = 1
   restat = 1
 o src/components/Div.cmj src/components/Div.cmi ../../src/components/Div.js : mij src/components/Div.ast

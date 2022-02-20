@@ -12,22 +12,18 @@ module Txt = {
 let default = () =>
   <div className="App">
       <header className="App-header">
-        <img src="/welcome.png" className="welcome_img"></img>
+		<div className="welcomeWrapper">
+			<h1 className="welcome">{`환영합니다 !`-> s}</h1>
+		</div>
         // <div className={css["test"]}>{`이력서에 오신것을 환영합니다`->React.string}</div>
         <div className="project">
-            <div className="titleWrapper center">
-              <h1><b>{`기본정보`->React.string}</b></h1>
+            <div className="basicInfo">
+              <div className="txt" >{`기본정보`->React.string}</div>
             </div>
-            <div className="description">
-                <ul>
-                    <li>
-                        <div className="highlight">{`웹 프론트엔드 `->React.string}</div>
-                        {` 개발자 입니다`->React.string}
-                    </li>
-                </ul>
-            </div>
-     
-        </div>    
+            <div className="basicDescription">
+				<pre><span className="highlight">{`웹 프론트엔드`->React.string}</span> {` 개발자 입니다`->React.string}</pre>
+				</div>     
+			</div>    
             <div className="project">
               <div className="titleWrapper center">
                 <h1><b>{`간단이력`->React.string}</b></h1>
@@ -79,22 +75,24 @@ let default = () =>
               </div>
               <div className="description">
 
-                <li><strong>{`next.js`->React.string}</strong>{` 또는 `->React.string}<strong>{`express`->React.string}</strong>{` 기반의 웹개발을 수행합니다`->React.string}</li>
-                <li>{`프로젝트 생성에서 배포 및 도메인 연결까지 개발 전과정을 혼자 진행할 수 있습니다`->React.string}</li>
-                <li><strong>{`MongoDB Atlas`->React.string}</strong>{`및 `->React.string}<strong>{`Supabase`->React.string}</strong>{`기반의 DB 생성, 관리, CRUD가 가능합니다`->React.string}</li>
-                <li>{`함수형 컴포넌트를 이용하여 SoC원칙에 입각하여 리액트 컴포넌트를 개발합니다`->React.string}</li>
+                <li><strong>{`react, next.js`->React.string}</strong>{` 기반의 웹개발을 수행합니다`->React.string}</li>
+                <li>{`프로젝트 생성에서 배포까지 개발 전과정 진행이 가능합니다`->React.string}</li>
+                <li><strong>{`Relay`->React.string}</strong>{`등의 GraphQL 라이브러리를 사용합니다`->React.string}</li>
+                <li>{`SoC원칙에 입각하여 리액트 컴포넌트를 개발합니다`->React.string}</li>
                 <li>{`ES2022까지 `->React.string}<strong>{`ECMA 스펙`->React.string}</strong>{`에 대한 거의 모든것을 이해합니다 (promise, generator, async 등)`->React.string}</li>
-                <li>{`jQuery 없이 querySelector및 HTMLElement등의 `->React.string}<strong>{`웹표준 API만으로 엘리먼트를 조작`->React.string}</strong>{`하는데 불편함이 없습니다`->React.string}</li>
-                <li>{`웹브라우저의 렌더링 프로세스 및 js 런타임 환경에 입각하여 `->React.string}<strong>{`코드의 실행순서를 이해`->React.string}</strong>{`할 수 있습니다`->React.string}</li>
+                <li>{`jQuery 없이 querySelector등의 `->React.string}<strong>{`웹표준 API만으로 엘리먼트를 조작`->React.string}</strong>{`하는데 불편함이 없습니다`->React.string}</li>
+                <li>{`크로미움의 렌더링 프로세스에 입각하여 성능저하가 없도록 신경씁니다`-> s}</li>
+                <li>{`js 런타임 환경에 입각하여 `->React.string}<strong>{`코드의 실행순서를 제대로 이해`->React.string}</strong>{`합니다`->React.string}</li>
+                <li>{`퍼포먼스 최적화를 선호합니다 (CLS, TTI, LCP등)`->React.string}</li>
                 <li><strong>{`SCSS, CSS Module, tailwind`->React.string}</strong>{` 기반의 스타일링을 지향합니다`->React.string}</li>
-                <li>{`디바이스에 따라서 가변적으로 표현되는 `->React.string}<strong>{`반응형 웹 디자인`->React.string}</strong>{` 경험이 존재합니다`->React.string}</li>
-                <li>{`영문독해, 쓰기, 리스닝 가능하며 `->React.string}<strong>{`공식문서 리딩`->React.string}</strong>{`을 지향합니다`->React.string}</li>
+                <li><strong>{`반응형 웹 디자인`->React.string}</strong>{`을 수행하였습니다`->React.string}</li>
+                <li>{`영어 리딩 리스닝 가능하며 `->React.string}<strong>{`공식문서 리딩`->React.string}</strong>{`을 지향합니다`->React.string}</li>
                 <li>{`E2E 테스트를 수행합니다`->s}</li>                
                 <li>{`네트워크 IO시에 예외처리 및 런타임 타입체킹에 신경씁니다`->s}</li>                
               </div>           
             </div>     
 
-				<div className="strong_font">
+				<div className="strong_font white">
 					<h1>{`경력`-> s}</h1>
 				</div>
 				<div className="project">
@@ -230,9 +228,8 @@ let default = () =>
                   <h1><b>{`파워보이스`->React.string}</b></h1>
                   <h4><i>{`(2017.01 ~ 2017.12)`->React.string}</i></h4>
                   <h4><i>{`자연어처리 업무를 담당하였습니다`->React.string}</i></h4>
-                  <img src="cpp-logo.png" width="240px"></img>
-                  <img src="python-logo2.png" width="240px"></img>
-
+                  <img className="powervoiceImg" src="cpp-logo.png" width="200px"></img>
+                  <img className="powervoiceImg" src="python-logo2.png" width="200px"></img>
                 </div>
                 <div className="description">
                   <ul>
@@ -258,7 +255,7 @@ let default = () =>
                 </div>
           </div>
 
-        <div className="strong_font">
+      			<div className="strong_font white">
 					<h1><b>{`기술`->React.string}</b></h1>
 				</div>
 
@@ -282,9 +279,9 @@ let default = () =>
 
 
 				<div className="project">
-					<div className="titleWrapper">
-					<img  className="img_title ts_title_logo" src="ts_logo.svg" />
-						<p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
+					<div className="titleImgWrapper">
+						<img  className="img_title ts_title_logo" src="ts_logo.svg" />
+						// <p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
 					</div>
 					<div className="description">    
 						<ul>           
@@ -294,9 +291,9 @@ let default = () =>
 				</div>
 
 				<div className="project react_wrapper">
-					<div className="titleWrapper">
+					<div className="titleReactImgWrapper">
 						<img className="img_title react_title_img" src="react_icon_square.png"/>
-						<p className="mobile_title"><strong>{`React`->React.string}</strong></p>
+						// <p className="mobile_title"><strong>{`React`->React.string}</strong></p>
 					</div>
 					<div className="description">
 						<ul>
@@ -310,23 +307,24 @@ let default = () =>
 
 
 				<div className="project">
-                    <div className="titleWrapper">
+                    <div className="titleWrapper center">
+						<h1><b>{`기타 언어`->React.string}</b></h1>
                         <div className="imgWrapper toyProject">
                             <img className="rescript_title_logo" src="rescript-logo.svg" />
-                            <img className="" src="elm_logo.png" />
+                            <img className="elm-logo" src="elm_logo.png" />
                             <img className="cljs-logo" src="cljs-logo.png" />
                             // <p className="mobile_title"><strong>{`Typescript`->React.string}</strong></p>
                         </div>                    
                     </div>
 					<div className="description">    
 						<ul>           
-							<li>{`몇가지 토이프로젝트를 수행한 경험이 있습니다`->React.string}</li>
+							<li>{`몇가지 토이프로젝트를 수행하였습니다`->React.string}</li>
 						</ul>   
 					</div> 
 				</div>
 
 
-            				<div className="project">
+				<div className="project">
 					<div className="titleWrapper center">
 						<h1><b>{`배포`->React.string}</b></h1>
 						<img className="deploy_icon" src="deploy_icon.png"/>
@@ -346,10 +344,12 @@ let default = () =>
 
 
 	<div className="project">
-					<div className="titleWrapper center">
-						<h1><b>{`개인정보`->React.string}</b></h1>
-						<h3><i></i></h3>
-						<img  className="personal_info_icon" width={"150px"} src="/profile_icon.png"/>
+					<div className="private">
+						<div>
+							<h1><b>{`개인정보`->React.string}</b></h1>
+							<h3><i></i></h3>
+							<img className="personal_info_icon" width={"150px"} src="/profile_icon.png"/>
+						</div>						
 					</div>
 					<div className="descriptionWrapper">
 						<div className="descriptItem">
