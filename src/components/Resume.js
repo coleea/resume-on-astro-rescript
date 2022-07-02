@@ -112,7 +112,7 @@ function Resume$default(Props) {
                                   src: "tailwind-logo-2.png"
                                 }))), React.createElement("div", {
                           className: "description"
-                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "페이지 단위로 레이지 로딩을 적용하여 랜딩페이지 로딩을 약 300ms 감소시켰습니다"), React.createElement("li", undefined, "레이지로딩 및 웹팩 번들링 최적화로 랜딩페이지의 js사이즈를 837kB -> 191kB로 약 77.2% 감소시켰습니다"), React.createElement("li", undefined, "cypress기반의 E2E 테스트를 모든 페이지에 도입하였습니다")))), React.createElement("div", {
+                        }, React.createElement("ul", undefined, React.createElement("li", undefined, "페이지 단위로 레이지 로딩을 적용하여 랜딩페이지 로딩을 약 300ms 감소시켰습니다"), React.createElement("li", undefined, "레이지로딩 및 웹팩 번들링 최적화로 랜딩페이지의 js사이즈를 837kB -> 191kB로 약 77.2% 감소시켰습니다")))), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "titleWrapper"
