@@ -1,14 +1,14 @@
 rescript = 1
 rule cp
-  command = cp $i $out
+  command = cmd.exe /C copy /Y $i $out >NUL
 rule touch
- command = touch $out
-o Div.cmi : cp ../bs/src/components/Div.cmi
-o Div.cmj : cp ../bs/src/components/Div.cmj
-o Div.cmt : cp ../bs/src/components/Div.cmt
-o Div.res : cp ../../src/components/Div.res
-o Resume.cmi : cp ../bs/src/components/Resume.cmi
-o Resume.cmj : cp ../bs/src/components/Resume.cmj
-o Resume.cmt : cp ../bs/src/components/Resume.cmt
-o Resume.res : cp ../../src/components/Resume.res
+ command = cmd.exe /C type nul >>$out & copy $out+,, >NUL
+o Div.cmi : cp ..\bs\src\components\Div.cmi
+o Div.cmj : cp ..\bs\src\components\Div.cmj
+o Div.cmt : cp ..\bs\src\components\Div.cmt
+o Div.res : cp ..\..\src\components\Div.res
+o Resume.cmi : cp ..\bs\src\components\Resume.cmi
+o Resume.cmj : cp ..\bs\src\components\Resume.cmj
+o Resume.cmt : cp ..\bs\src\components\Resume.cmt
+o Resume.res : cp ..\..\src\components\Resume.res
 build install.stamp : touch Div.cmi Div.cmj Resume.cmi Resume.cmj 

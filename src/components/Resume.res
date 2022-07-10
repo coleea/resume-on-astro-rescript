@@ -13,7 +13,7 @@ let default = () =>
   <div className="App">
       <header className="App-header">
 		<div className="welcomeWrapper">
-			<h1 className="welcome">{`환영합니다 !`-> s}</h1>
+			<h1 className="welcome">{`환영합니다 !(now testing github actions )`-> s}</h1>
 		</div>
         // <div className={css["test"]}>{`이력서에 오신것을 환영합니다`->React.string}</div>
         <div className="project">

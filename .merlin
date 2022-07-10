@@ -1,16 +1,16 @@
 ####{BSB GENERATED: NO EDIT
-FLG -ppx '/Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/darwin/bsc.exe -as-ppx -bs-jsx 3'
-S /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/lib/ocaml
-B /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/.pnpm/rescript@9.1.4/node_modules/rescript/lib/ocaml
+FLG -ppx "H:\project\resume-on-astro-rescript\node_modules\rescript\win32\bsc.exe -as-ppx -bs-jsx 3"
+S H:\project\resume-on-astro-rescript\node_modules\rescript\lib\ocaml
+B H:\project\resume-on-astro-rescript\node_modules\rescript\lib\ocaml
 FLG -w +a-4-9-20-40-41-42-50-61-102
-S /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml
-B /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@rescript/react/lib/ocaml
-S /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml
-B /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-remix/lib/ocaml
-S /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml
-B /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/rescript-webapi/lib/ocaml
-S /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml
-B /Users/gukbeomlee/project/resume-on-astro-rescript/node_modules/@ryyppy/rescript-promise/lib/ocaml
-S src/components
-B lib/bs/src/components
+S H:\project\resume-on-astro-rescript\node_modules\@rescript\react\lib\ocaml
+B H:\project\resume-on-astro-rescript\node_modules\@rescript\react\lib\ocaml
+S H:\project\resume-on-astro-rescript\node_modules\rescript-remix\lib\ocaml
+B H:\project\resume-on-astro-rescript\node_modules\rescript-remix\lib\ocaml
+S H:\project\resume-on-astro-rescript\node_modules\rescript-webapi\lib\ocaml
+B H:\project\resume-on-astro-rescript\node_modules\rescript-webapi\lib\ocaml
+S H:\project\resume-on-astro-rescript\node_modules\@ryyppy\rescript-promise\lib\ocaml
+B H:\project\resume-on-astro-rescript\node_modules\@ryyppy\rescript-promise\lib\ocaml
+S src\components
+B lib\bs\src\components
 ####BSB GENERATED: NO EDIT}

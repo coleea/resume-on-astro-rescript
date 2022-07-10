@@ -25,7 +25,7 @@ function Resume$default(Props) {
                       className: "welcomeWrapper"
                     }, React.createElement("h1", {
                           className: "welcome"
-                        }, "환영합니다 !")), React.createElement("div", {
+                        }, "환영합니다 !(now testing github actions )")), React.createElement("div", {
                       className: "project"
                     }, React.createElement("div", {
                           className: "basicInfo"
